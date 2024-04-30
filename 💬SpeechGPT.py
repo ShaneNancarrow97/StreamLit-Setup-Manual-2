@@ -25,16 +25,16 @@ col1, col2 = st.columns(2)
 with col1:
     st.header("SpeechGPT", divider="orange", anchor=False)
 
-    models_info = ollama.list()
-    available_models = extract_model_names(models_info)
-    if available_models:
-        selected_model = st.selectbox(
-            "Select LLM Model", available_models)
-    else:
-        st.warning("You have not pulled any model from Ollama yet!", icon="⚠️")
-        if st.button("Go to settings to download a model"):
-            st.page_switch("pages/03_⚙️_Settings.py")
-    st.subheader(selected_model)
+    #models_info = ollama.list()
+    #available_models = extract_model_names(models_info)
+    #if available_models:
+        #selected_model = st.selectbox(
+            #"Select LLM Model", available_models)
+    #else:
+        #st.warning("You have not pulled any model from Ollama yet!", icon="⚠️")
+        #if st.button("Go to settings to download a model"):
+            #st.page_switch("pages/03_⚙️_Settings.py")
+    #st.subheader(selected_model)
 with col2:
     st.markdown("## What is SpeechGPT?\n"
             "SpeechGPT is a Large Language Model (LLM) custom instructed on-top of Llama3 8B. With this UI you can:\n"
