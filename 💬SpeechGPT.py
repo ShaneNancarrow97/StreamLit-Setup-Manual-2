@@ -28,7 +28,7 @@ with col1:
     #models_info = ollama.list()
     #available_models = extract_model_names(models_info)
     #if available_models:
-    selected_model = "llama3"
+    selected_model = "mistral"
        #selected_model = st.selectbox(
             #"Select LLM Model", available_models)
     #else:
