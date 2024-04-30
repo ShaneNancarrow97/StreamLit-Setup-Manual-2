@@ -9,6 +9,7 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 marshmallow==3.21.1
 mdurl==0.1.2
+mistral
 multidict==6.0.5
 mypy-extensions==1.0.0
 nest-asyncio==1.6.0
